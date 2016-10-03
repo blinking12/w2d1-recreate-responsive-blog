@@ -3,3 +3,68 @@
 html, body {height: 100%;}
 
 img {width: 100%;}
+
+/*.row {
+    display: flex;
+    flex-direction: column;
+}*/
+
+/*blue box*/
+
+.div1 {
+    background-color: #075AFF;
+    /*height: 100%;*/
+}
+
+.picture {
+    margin-top: 100px;
+    margin-left: 110px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.howdie {
+    color: #7DABFA;
+    text-align: center;
+}
+
+.imcam {
+    color: white;
+    text-align: center;
+
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 110px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 200px;
+    margin-bottom: 40px;
+
+
+}
+
+/*blue box end*/
+
+ul {
+    padding: 0;
+    li {
+        list-style-type: none;
+        margin-bottom: : 30px;
+    }
+}
+.fa-angle-right {
+    margin-right: 10px;
+    color: blue;
+}
+
+.fa-arrow-right {
+    margin-left: 80px;
+}

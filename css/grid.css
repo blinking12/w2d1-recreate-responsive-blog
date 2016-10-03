@@ -28,12 +28,6 @@ img {
     text-align: right;
 }
 
-/*#brand-bar {
-    background: linear-gradient(rgb(138, 189, 212), rgb(193, 225, 238) );
-    margin-bottom: 20px;
-    transition: all 1s ease;
-}*/
-
 .col h1, .col h2, .col h3, .col h4, .col h5, .col h6 {
     margin: 20px 0;
 }
