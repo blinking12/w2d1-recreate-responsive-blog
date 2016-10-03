@@ -4,10 +4,19 @@ html, body {height: 100%;}
 
 img {width: 100%;}
 
-/*.row {
+.row {
     display: flex;
     flex-direction: column;
-}*/
+}
+
+.row-inline {
+    flex-direction: row;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
 
 /*blue box*/
 
@@ -51,6 +60,18 @@ img {width: 100%;}
 
 }
 
+.blue {
+    color: #075AFF;
+}
+
+.gray {
+    color: #767676;
+}
+
+.white {
+    color: white;
+    font-size: 10px;
+}
 /*blue box end*/
 
 ul {
@@ -67,4 +88,33 @@ ul {
 
 .fa-arrow-right {
     margin-left: 80px;
+}
+
+@media screen and (min-width: 600px) {
+    .row {
+        flex-direction: row;
+    }
+    /*.row-large-reverse {
+        flex-direction: row-reverse;
+    }*/
+    /*.col-1 {flex: 1;}
+    .col-2 {flex: 2;}
+    .col-3 {flex: 3;}
+    .col-4 {flex: 4;}
+    .col-5 {flex: 5;}
+    .col-6 {flex: 6;}
+    .col-7 {flex: 7;}
+    .col-8 {flex: 8;}
+    .col-9 {flex: 9;}
+    .col-10 {flex: 10;}
+    .col-11 {flex: 11;}
+    .col-12 {flex: 12;}*/
+
+      /*.visible-large {
+         display: block;
+      }*/
+
+    /*#brand-bar {
+        margin-bottom: 40px;
+    }*/
 }
