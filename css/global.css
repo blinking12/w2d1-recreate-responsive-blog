@@ -69,15 +69,17 @@ img {width: 100%;}
 .white {
   color: white;
   font-size: 10px;
+  display: inline;
 }
 /*blue box end*/
 
-.column {
+/*.column {
   display: flex;
   flex-direction: column;
-}
+}*/
 
 .column-left {
+  position: absolute;
   text-align: left;
   flex-direction: column;
   flex: 2;
@@ -107,7 +109,19 @@ ul {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 600px) {
+
+.mainpage {
+  display: flex;
+}
+
+.bluebox {
+  flex: 1;
+}
+
+.whitebox {
+  flex: 1;
+}
   .row {
     flex-direction: row;
   }
@@ -139,12 +153,20 @@ ul {
   }
 }
   @media screen and (min-width: 768px) {
+    .aboutmebox {
+      display: flex;
+    }
+    .aboutmeheader {
+      flex: 1
+    }
+    .aboutmetext {
+      flex: 3
+    }
+
     .row {
       flex-direction: row;
     }
-    .desktop {
-      flex: 3;
-    }
+
     .li {
       list-style: none;
     }
