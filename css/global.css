@@ -79,8 +79,8 @@ img {width: 100%;}
 
 .column-left {
   text-align: left;
-  flex-direction: row;
-
+  flex-direction: column;
+  flex: 2;
 }
 
 .column-right {
@@ -107,7 +107,7 @@ ul {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px){
+@media screen and (min-width: 600px) and (max-width: 767px) {
   .row {
     flex-direction: row;
   }
@@ -143,7 +143,7 @@ ul {
       flex-direction: row;
     }
     .desktop {
-      flex; 3;
+      flex: 3;
     }
     .li {
       list-style: none;
